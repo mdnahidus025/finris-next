@@ -94,14 +94,16 @@ const VideoPopup: React.FC = () => {
 
                 <iframe
                     className="video-iframe"
+                    width="800"
+                    height="450"
                     src={embedUrl}
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                     referrerPolicy="strict-origin-when-cross-origin"
                     style={{
-                        width: "100%",
-                        maxWidth: "800px",
+                        maxWidth: "100%",
+                        height: "auto",
                         aspectRatio: "16 / 9",
                         border: "none",
                     }}

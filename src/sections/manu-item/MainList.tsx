@@ -6,7 +6,12 @@ import { usePathname } from 'next/navigation';
 
 const ManuList: React.FC = () => {
     const pathName: string = usePathname();
+
     const isCurrent = (pathArray: string[]): boolean => {
+        if (pathName.includes("/inner")) {
+            const cleanPath = pathName.replace(/^\/inner/, '');
+            return pathArray.includes(cleanPath);
+        }
         return pathArray.includes(pathName);
     };
     return (
@@ -22,8 +27,8 @@ const ManuList: React.FC = () => {
                 </ul>
             </li>
 
-            <li className={`${pathName === '/about' ? 'current' : ''}`}>
-                <Link href="/about">About</Link>
+            <li className={`${isCurrent(['/about']) ? 'current' : ''}`}>
+                <Link href="/inner/about">About</Link>
             </li>
             <li className={`dropdown ${isCurrent(["/team", "/team-carousel", "/team-details", "/portfolio", "/portfolio-details", "/testimonials", "/testimonial-carousel", "/pricing", "/gallery", "/faq", "/coming-soon", "/404"]) ? 'current' : ''}`}>
                 <a href="#">Pages</a>
@@ -66,7 +71,7 @@ const ManuList: React.FC = () => {
                 </ul>
             </li>
             <li className={`${isCurrent(["/contact"]) ? 'current' : ''}`}>
-                <Link href="/contact">Contact</Link>
+                <Link href="/inner/contact">Contact</Link>
             </li>
         </ul>
     );
