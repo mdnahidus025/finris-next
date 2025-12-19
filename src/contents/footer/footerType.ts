@@ -5,6 +5,7 @@ export interface LINK {
 }
 
 export interface NavItemSingle {
+    id: number;
     linkId: string,
     navItem: string
 }

@@ -192,7 +192,7 @@ const FooterCommon: React.FC = () => {
                                 <div className="site-footer-two__bottom-inner">
                                     <div className="site-footer-two__copyright">
                                         <p className="site-footer-two__copyright-text">
-                                            &copy; 2025 <b>Finris</b> by{' '}
+                                            &copy; 2026 <b>Finris</b> by{' '}
                                             <a href="https://themeforest.net/user/scriptfusions" target="_blank" rel="noreferrer">
                                                 scriptfusions
                                             </a>

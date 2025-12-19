@@ -56,26 +56,32 @@ export const BLOG_LINKS: LINK[] = [
 
 export const navItemsSingle: NavItemSingle[] = [
     {
+        id: 1,
         linkId: 'home',
         navItem: 'Home'
     },
     {
-        linkId: 'services',
-        navItem: 'Services'
-    },
-    {
+        id: 2,
         linkId: 'about',
         navItem: 'About'
     },
     {
+        id: 3,
+        linkId: 'services',
+        navItem: 'Services'
+    },
+    {
+        id: 4,
         linkId: 'portfolio',
         navItem: 'Portfolio'
     },
     {
+        id: 5,
         linkId: 'blog',
         navItem: 'Blog'
     },
     {
+        id: 6,
         linkId: 'contact',
         navItem: 'Contact'
     },
