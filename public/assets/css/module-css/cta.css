@@ -179,6 +179,7 @@
 }
 
 .cta-three__left-content-shape-bg {
+    background-image: url("../../images/shapes/cta-three-left-content-shape-bg.png");
     position: absolute;
     top: 0;
     bottom: 0;

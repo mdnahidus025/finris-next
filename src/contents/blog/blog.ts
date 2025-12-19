@@ -29,26 +29,26 @@ import blogCarouselImg3 from "../../../public/assets/images/blog/blog-1-3.jpg";
 import userImg1 from "../../../public/assets/images/blog/blog-one-user-1-1.jpg";
 import userImg2 from "../../../public/assets/images/blog/blog-one-user-1-2.jpg";
 import userImg3 from "../../../public/assets/images/blog/blog-one-user-1-3.jpg";
- 
+
 
 export const blogPosts: BlogPost[] = [
     {
         id: 1,
-        image: blogPostImg1,
+        image: blogPostImg2,
         date: 'August 20, 2025',
         tags: ['Productivity', '★', 'Tech Innovation'],
         title: `Future of Artificial Intelligence: What's Next in 2025?`,
         text: 'As we move towards 2025, the landscape of artificial intelligence continues to evolve',
-        link: '/blog-details',
+        link: '/inner/blog-details',
     },
     {
         id: 2,
-        image: blogPostImg2,
+        image: blogPostImg1,
         date: 'March 15, 2025',
         tags: ['Technology', '★', 'Wellness'],
         title: '5 Essential Wellness Tips for a Healthier Lifestyle',
         text: "Achieving a healthier lifestyle doesn't have to be complicated.",
-        link: '/blog-details',
+        link: '/inner/blog-details',
     },
     {
         id: 3,
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
         tags: ['Sustainability', '★', 'Eco-Friendly'],
         title: 'Sustainable Fashion: How to Build an Eco-Friendly Wardrobe',
         text: 'This guide covers sustainable fabrics, ethical brands, and mindful shopping',
-        link: '/blog-details',
+        link: '/inner/blog-details',
     },
     {
         id: 4,
@@ -66,7 +66,7 @@ export const blogPosts: BlogPost[] = [
         tags: ['AI', '★', 'Innovation'],
         title: 'The Power of Automation in Modern Business',
         text: 'Automation is reshaping industries by improving efficiency and reducing costs.',
-        link: '/blog-details',
+        link: '/inner/blog-details',
     },
 ];
 
@@ -78,7 +78,7 @@ export const blogs: BlogPage[] = [
         tags: ["Productivity", "★", "Tech Innovation"],
         title: "Future of Artificial Intelligence: What's Next in 2025?",
         description: "We move towards 2025, the landscape of artificial intelligence.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 2,
@@ -87,7 +87,7 @@ export const blogs: BlogPage[] = [
         tags: ["Technology", "★", "Tech Innovation"],
         title: "5 Essential Wellness Tips for a Healthier Lifestyle",
         description: "Achieving a healthier lifestyle doesn't have to be complicated.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 3,
@@ -96,7 +96,7 @@ export const blogs: BlogPage[] = [
         tags: ["Productivity", "★", "Tech Innovation"],
         title: "Sustainable Fashion: How to Build an Eco-Friendly Wardrobe",
         description: "This guide covers sustainable fabrics, ethical brands.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 4,
@@ -105,7 +105,7 @@ export const blogs: BlogPage[] = [
         tags: ["Marketing", "★", "Digital Growth"],
         title: "Mastering the Art of Adapting to Changing Digital Marketing",
         description: "Learn how to adjust your campaigns effectively to maintain visibility.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 5,
@@ -114,7 +114,7 @@ export const blogs: BlogPage[] = [
         tags: ["Content", "★", "Creativity"],
         title: "Engaging a Diverse Audience: Tips for Creating Inclusive Content",
         description: "This blog provides insights into addressing diverse audience needs.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 6,
@@ -123,7 +123,7 @@ export const blogs: BlogPage[] = [
         tags: ["Business", "★", "Finance"],
         title: "Balancing Your Digital Marketing Budget Strategies",
         description: "This post offers practical advice on balancing cost constraints.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 7,
@@ -132,7 +132,7 @@ export const blogs: BlogPage[] = [
         tags: ["Productivity", "★", "Tech Innovation"],
         title: "The Importance of Accurate Performance Reporting in Digital Marketing",
         description: "Find out how to track key metrics effectively and use data for improvements.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 8,
@@ -141,7 +141,7 @@ export const blogs: BlogPage[] = [
         tags: ["Marketing", "★", "Innovation"],
         title: "Standing Out in a Competitive Market: Strategies for Differentiation",
         description: "Learn strategies for creating a unique marketing presence.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 9,
@@ -150,7 +150,7 @@ export const blogs: BlogPage[] = [
         tags: ["Tech", "★", "Digital Trends"],
         title: "Adapting to Digital Marketing Trends: Staying Ahead of the Curve",
         description: "Stay informed about the latest digital marketing trends and strategies.",
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
 ];
 
@@ -163,7 +163,7 @@ export const blogPostsThree: BlogPost[] = [
         tags: ['Productivity', '★', 'Tech Innovation'],
         title: `Future of Artificial Intelligence: What's Next in 2025?`,
         text: 'As we move towards 2025, the landscape of artificial intelligence continues to evolve',
-        link: '/blog-details',
+        link: '/inner/blog-details',
     },
     {
         id: 2,
@@ -172,7 +172,7 @@ export const blogPostsThree: BlogPost[] = [
         tags: ['Technology', '★', 'Wellness'],
         title: '5 Essential Wellness Tips for a Healthier Lifestyle',
         text: "Achieving a healthier lifestyle doesn't have to be complicated.",
-        link: '/blog-details',
+        link: '/inner/blog-details',
     },
     {
         id: 3,
@@ -181,7 +181,7 @@ export const blogPostsThree: BlogPost[] = [
         tags: ['Sustainability', '★', 'Eco-Friendly'],
         title: 'Sustainable Fashion: How to Build an Eco-Friendly Wardrobe',
         text: 'This guide covers sustainable fabrics, ethical brands, and mindful shopping',
-        link: '/blog-details',
+        link: '/inner/blog-details',
     }
 ];
 
@@ -197,7 +197,7 @@ export const blogsListItems: BlogsListItem[] = [
         clientImage: client1,
         author: "Alisa Olivia",
         shape: shape1,
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 2,
@@ -210,7 +210,7 @@ export const blogsListItems: BlogsListItem[] = [
         clientImage: client2,
         author: "Thomas Alison",
         shape: shape2,
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 3,
@@ -223,7 +223,7 @@ export const blogsListItems: BlogsListItem[] = [
         clientImage: client3,
         author: "Sarah Caine",
         shape: shape1,
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
     {
         id: 4,
@@ -236,7 +236,7 @@ export const blogsListItems: BlogsListItem[] = [
         clientImage: client4,
         author: "Smith Jhon",
         shape: shape1,
-        link: "/blog-details",
+        link: "/inner/blog-details",
     },
 ];
 
@@ -253,7 +253,7 @@ export const blogCarouselData: BlogCarouselItem[] = [
         userName: "Michael Johnson",
         date: "August 15, 2025",
         tags: ["Digital", "Technology"],
-        link: "/blog-list",
+        link: "/inner/blog-list",
     },
     {
         id: 2,
@@ -265,7 +265,7 @@ export const blogCarouselData: BlogCarouselItem[] = [
         userName: "Michael Johnson",
         date: "December 5, 2023",
         tags: ["Digital", "Technology"],
-        link: "/blog-list",
+        link: "/inner/blog-list",
     },
     {
         id: 3,
@@ -277,7 +277,7 @@ export const blogCarouselData: BlogCarouselItem[] = [
         userName: "Michael Johnson",
         date: "June 22, 2025",
         tags: ["Health", "Lifestyle"],
-        link: "/blog-list",
+        link: "/inner/blog-list",
     },
     {
         id: 4,
@@ -289,88 +289,88 @@ export const blogCarouselData: BlogCarouselItem[] = [
         userName: "Michael Johnson",
         date: "June 22, 2025",
         tags: ["Health", "Lifestyle"],
-        link: "/blog-list",
+        link: "/inner/blog-list",
     },
 ];
 
 
-export  const blogOnePosts: BlogOnePost[] = [
-        {
-            id: 1,
-            image: blogCarouselImg1,
-            tags: ["Digital", "Technology"],
-            title: "Top Strategies for Effective Time Management",
-            text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
-            author: {
-                name: "Michael Johnson",
-                image: userImg1
-            },
-            date: "August 15, 2025",
-            link: "/blog-details"
+export const blogOnePosts: BlogOnePost[] = [
+    {
+        id: 1,
+        image: blogCarouselImg1,
+        tags: ["Digital", "Technology"],
+        title: "Top Strategies for Effective Time Management",
+        text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
+        author: {
+            name: "Michael Johnson",
+            image: userImg1
         },
-        {
-            id: 2,
-            image: blogCarouselImg2,
-            tags: ["Digital", "Technology"],
-            title: "The Future of Technology Emerging Trends to Watch in 2025",
-            text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
-            author: {
-                name: "Michael Johnson",
-                image: userImg2
-            },
-            date: "December 5, 2023",
-            link: "/blog-details"
+        date: "August 15, 2025",
+        link: "/inner/blog-details"
+    },
+    {
+        id: 2,
+        image: blogCarouselImg2,
+        tags: ["Digital", "Technology"],
+        title: "The Future of Technology Emerging Trends to Watch in 2025",
+        text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
+        author: {
+            name: "Michael Johnson",
+            image: userImg2
         },
-        {
-            id: 3,
-            image: blogCarouselImg3,
-            tags: ["Digital", "Technology"],
-            title: "Healthy Eating Made Simple Quick and Nutritious Recipes for",
-            text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
-            author: {
-                name: "Michael Johnson",
-                image: userImg3
-            },
-            date: "June 22, 2025",
-            link: "/blog-details"
+        date: "December 5, 2023",
+        link: "/inner/blog-details"
+    },
+    {
+        id: 3,
+        image: blogCarouselImg3,
+        tags: ["Digital", "Technology"],
+        title: "Healthy Eating Made Simple Quick and Nutritious Recipes for",
+        text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
+        author: {
+            name: "Michael Johnson",
+            image: userImg3
         },
-        {
-            id: 4,
-            image: blogCarouselImg1,
-            tags: ["Digital", "Technology"],
-            title: "Top Strategies for Effective Time Management",
-            text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
-            author: {
-                name: "Michael Johnson",
-                image: userImg1
-            },
-            date: "August 15, 2025",
-            link: "/blog-details"
+        date: "June 22, 2025",
+        link: "/inner/blog-details"
+    },
+    {
+        id: 4,
+        image: blogCarouselImg1,
+        tags: ["Digital", "Technology"],
+        title: "Top Strategies for Effective Time Management",
+        text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
+        author: {
+            name: "Michael Johnson",
+            image: userImg1
         },
-        {
-            id: 5,
-            image: blogCarouselImg2,
-            tags: ["Digital", "Technology"],
-            title: "The Future of Technology Emerging Trends to Watch in 2025",
-            text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
-            author: {
-                name: "Michael Johnson",
-                image: userImg2
-            },
-            date: "December 5, 2023",
-            link: "/blog-details"
+        date: "August 15, 2025",
+        link: "/inner/blog-details"
+    },
+    {
+        id: 5,
+        image: blogCarouselImg2,
+        tags: ["Digital", "Technology"],
+        title: "The Future of Technology Emerging Trends to Watch in 2025",
+        text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
+        author: {
+            name: "Michael Johnson",
+            image: userImg2
         },
-        {
-            id: 6,
-            image: blogCarouselImg3,
-            tags: ["Digital", "Technology"],
-            title: "Healthy Eating Made Simple Quick and Nutritious Recipes for",
-            text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
-            author: {
-                name: "Michael Johnson",
-                image: userImg3
-            },
-            date: "June 22, 2025",
-            link: "/blog-details"
-        }
-    ];
+        date: "December 5, 2023",
+        link: "/inner/blog-details"
+    },
+    {
+        id: 6,
+        image: blogCarouselImg3,
+        tags: ["Digital", "Technology"],
+        title: "Healthy Eating Made Simple Quick and Nutritious Recipes for",
+        text: "Discover actionable tips and techniques to enhance your productivity and manage your time more efficiently.",
+        author: {
+            name: "Michael Johnson",
+            image: userImg3
+        },
+        date: "June 22, 2025",
+        link: "/inner/blog-details"
+    }
+];

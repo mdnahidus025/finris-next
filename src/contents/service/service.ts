@@ -17,7 +17,7 @@ export const servicesTow: ServicesTow[] = [
         id: 1,
         icon: serviceIcon1,
         title: 'Product Design & Branding',
-        link: '/digital-marketing',
+        link: '/inner/digital-marketing',
         description:
             "We create innovative product designs and develop cohesive branding that captures your audience's attention.",
     },
@@ -25,7 +25,7 @@ export const servicesTow: ServicesTow[] = [
         id: 2,
         icon: serviceIcon2,
         title: 'Web Design & Development',
-        link: '/web-design-development',
+        link: '/inner/web-design-development',
         description:
             'We craft user-friendly websites that combine visually appealing design with powerful functionality.',
     },
@@ -33,7 +33,7 @@ export const servicesTow: ServicesTow[] = [
         id: 3,
         icon: serviceIcon3,
         title: 'Content Creation & Video Marketing',
-        link: '/search-engine-optimization',
+        link: '/inner/search-engine-optimization',
         description:
             'We produce compelling content and dynamic video marketing campaigns that engage and convert.',
     },
@@ -41,7 +41,7 @@ export const servicesTow: ServicesTow[] = [
         id: 4,
         icon: serviceIcon4,
         title: 'Digital Marketing & Ads Campaign',
-        link: '/digital-marketing',
+        link: '/inner/digital-marketing',
         description:
             'We design targeted digital marketing strategies and ad campaigns that deliver measurable results.',
     },
@@ -56,7 +56,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Managed IT Services',
         description:
             'Managed IT Services offer a comprehensive, cost-effective solution for businesses...',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 2,
@@ -64,7 +64,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Software Development',
         description:
             'We deliver powerful, scalable, and user-focused applications built for performance.',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 3,
@@ -72,7 +72,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Cybersecurity Services',
         description:
             'Protect your business from digital threats with robust cybersecurity frameworks.',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 4,
@@ -80,7 +80,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Incident Responder',
         description:
             'Swift and efficient incident response to minimize damage and recovery time.',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 5,
@@ -88,7 +88,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Data Encryption',
         description:
             'Advanced encryption techniques to secure sensitive data and maintain compliance.',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 6,
@@ -96,7 +96,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Disaster Planning',
         description:
             'Ensure business continuity with disaster recovery and proactive planning.',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 7,
@@ -104,7 +104,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Threat Hunter',
         description:
             'Identify and neutralize emerging threats before they impact operations.',
-        link: '/services',
+        link: '/inner/services',
     },
     {
         id: 8,
@@ -112,7 +112,7 @@ export const servicesThree: ServicesThree[] = [
         title: 'Data Recovery',
         description:
             'Recover lost or corrupted data efficiently with our expert recovery solutions.',
-        link: '/services',
+        link: '/inner/services',
     },
 ];
 
@@ -124,25 +124,25 @@ export const servicesOneData: ServiceOneItem[] = [
         id: 1,
         icon: productDesignIcon,
         title: 'Product Design & Branding',
-        link: '/digital-marketing',
+        link: '/inner/digital-marketing',
     },
     {
         id: 2,
         icon: digitalMarketingIcon,
         title: 'Digital Marketing & ADS Camping',
-        link: '/digital-marketing',
+        link: '/inner/digital-marketing',
     },
     {
         id: 3,
         icon: userResearchIcon,
         title: 'Ui/UX Design & User Research',
-        link: '/web-design-development',
+        link: '/inner/web-design-development',
     },
     {
         id: 4,
         icon: webDesignIcon,
         title: 'Website Design & Development',
-        link: '/web-design-development',
+        link: '/inner/web-design-development',
     }
 ];
 

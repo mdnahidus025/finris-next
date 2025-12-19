@@ -5,6 +5,7 @@ import TextAnimation from '@/components/elememts/TextAnimation';
 import { teamMembersTeamPage } from '@/contents/team/team';
 import { TeamMember } from '@/contents/team/teamType';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const TeamMain: React.FC = () => {
     return (
@@ -38,7 +39,7 @@ const TeamMain: React.FC = () => {
 
                                 <div className="team-page__content">
                                     <h4 className="team-page__title">
-                                        <a href={member.link}>{member.name}</a>
+                                        <Link href={member.link}>{member.name}</Link>
                                     </h4>
                                     <p className="team-page__text">{member.position}</p>
 

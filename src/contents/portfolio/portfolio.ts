@@ -4,7 +4,6 @@ import portfolioImg2 from '../../../public/assets/images/project/portfolio-two-1
 import portfolioImg3 from '../../../public/assets/images/project/portfolio-two-1-3.jpg';
 import portfolioImg4 from '../../../public/assets/images/project/portfolio-two-1-4.jpg';
 import portfolioImg5 from '../../../public/assets/images/project/portfolio-two-1-5.jpg';
-import type { Portfolio, PortfolioItem, PortfolioItemThree, PortfolioOne } from './portfolioType';
 import portfolioThreeImg1 from '../../../public/assets/images/project/portfolio-three-1-1.jpg';
 import portfolioThreeImg2 from '../../../public/assets/images/project/portfolio-three-1-2.jpg';
 import portfolioThreeImg3 from '../../../public/assets/images/project/portfolio-three-1-3.jpg';
@@ -16,6 +15,7 @@ import portfolioPageImg3 from "../../../public/assets/images/project/portfolio-p
 import portfolioPageImg4 from "../../../public/assets/images/project/portfolio-page-1-4.jpg";
 import portfolioPageImg5 from "../../../public/assets/images/project/portfolio-page-1-5.jpg";
 import portfolioPageImg6 from "../../../public/assets/images/project/portfolio-page-1-6.jpg";
+import type { Portfolio, PortfolioItem, PortfolioItemThree, PortfolioOne } from './portfolioType';
 
 export const portfolioItems: PortfolioItem[] = [
     {
@@ -23,7 +23,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg1,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'AI-Powered Solutions',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--one',
     },
     {
@@ -31,7 +31,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg2,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'Creative UI/UX Design',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--two',
     },
     {
@@ -39,7 +39,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg3,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'Smart Product Branding',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--three',
     },
     {
@@ -47,7 +47,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg4,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'Business Growth Strategy',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--four',
     },
     {
@@ -55,7 +55,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg5,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'E-Commerce Dashboard',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--five',
     },
     {
@@ -63,7 +63,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg1,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'AI-Powered Solutions',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--one',
     },
     {
@@ -71,7 +71,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg2,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'Creative UI/UX Design',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--two',
     },
     {
@@ -79,7 +79,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg3,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'Smart Product Branding',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--three',
     },
     {
@@ -87,7 +87,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg4,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'Business Growth Strategy',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--four',
     },
     {
@@ -95,7 +95,7 @@ export const portfolioItems: PortfolioItem[] = [
         img: portfolioImg5,
         tags: ['#UserInterface', '#UserExperience'],
         title: 'E-Commerce Dashboard',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
         className: 'swiper-slide--five',
     },
 ];
@@ -107,37 +107,37 @@ export const portfolioItemsThree: PortfolioItemThree[] = [
         id: 1,
         image: portfolioThreeImg1,
         title: 'Social Media Marketing & Ads Campaign',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
     },
     {
         id: 2,
         image: portfolioThreeImg2,
         title: 'Creative Digital Branding Campaign',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
     },
     {
         id: 3,
         image: portfolioThreeImg3,
         title: 'Web Application Development Project',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
     },
     {
         id: 4,
         image: portfolioThreeImg4,
         title: 'UX/UI Design for Fintech Startup',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
     },
     {
         id: 5,
         image: portfolioThreeImg1,
         title: 'Social Media Marketing & Ads Campaign',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
     },
     {
         id: 6,
         image: portfolioThreeImg2,
         title: 'Creative Digital Branding Campaign',
-        link: '/portfolio-details',
+        link: '/inner/portfolio-details',
     },
 ];
 
@@ -148,42 +148,42 @@ export const portfolioPageData: Portfolio[] = [
         category: "#Social Media Management",
         title: "Boosting Brand Visibility: A Social Media Revamp Success Story",
         image: portfolioPageImg1,
-        link: "/portfolio-details",
+        link: '/inner/portfolio-details',
     },
     {
         id: 2,
         category: "#Content Creation and Strategy",
         title: "Optimizing SEO for Increased Conversions: A Comprehensive Approach",
         image: portfolioPageImg2,
-        link: "/portfolio-details",
+        link: '/inner/portfolio-details',
     },
     {
         id: 3,
         category: "#Search Engine Optimization (SEO)",
         title: "Enhancing Engagement: Strategies for a Thriving Online Community",
         image: portfolioPageImg3,
-        link: "/portfolio-details",
+        link: '/inner/portfolio-details',
     },
     {
         id: 4,
         category: "#Digital Advertising",
         title: "Driving Traffic Through Targeted Advertising: A Case Study",
         image: portfolioPageImg4,
-        link: "/portfolio-details",
+        link: '/inner/portfolio-details',
     },
     {
         id: 5,
         category: "#Brand Development and Strategy",
         title: "Tailored Digital Marketing Strategies for Startup Growth",
         image: portfolioPageImg5,
-        link: "/portfolio-details",
+        link: '/inner/portfolio-details',
     },
     {
         id: 6,
         category: "#Performance Measurement",
         title: "Leveraging Technology for Effective Campaign Management",
         image: portfolioPageImg6,
-        link: "/portfolio-details",
+        link: '/inner/portfolio-details',
     },
 ];
 
@@ -197,55 +197,55 @@ export const portfolioOneItems: PortfolioOne[] = [
         image: portfolioImg1,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 2,
         image: portfolioImg2,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 3,
         image: portfolioImg3,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 4,
         image: portfolioImg4,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 5,
         image: portfolioImg1,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 6,
         image: portfolioImg2,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 7,
         image: portfolioImg3,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     },
     {
         id: 8,
         image: portfolioImg4,
         title: "Social Media Marketing & Ads Campaign",
         description: "Creating and managing promotional content and advertisements across social media platforms to enhance brand visibility.",
-        link: "/portfolio-details"
+        link: '/inner/portfolio-details'
     }
 ];

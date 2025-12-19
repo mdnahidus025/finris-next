@@ -9,39 +9,39 @@ export const LINKSONE: LINK[] = [
     },
     {
         id: 2,
-        link: "/pricing",
+        link: "/inner/pricing",
         value: "Pricing"
     },
     {
         id: 3,
-        link: "/about",
+        link: "/inner/about",
         value: "About"
     },
     {
         id: 4,
-        link: "/blog",
+        link: "/inner/blog",
         value: "Blog"
     },
     {
         id: 5,
-        link: "/contact",
+        link: "/inner/contact",
         value: "Contact"
     },
 ]
 export const LINKSTWO: LINK[] = [
     {
         id: 1,
-        link: "/about",
+        link: "/inner/about",
         value: "Teams & Condition"
     },
     {
         id: 2,
-        link: "/faq",
+        link: "/inner/faq",
         value: "FAQs"
     },
     {
         id: 3,
-        link: "/contact",
+        link: "/inner/contact",
         value: "Contact Us"
     },
     {
@@ -51,7 +51,7 @@ export const LINKSTWO: LINK[] = [
     },
     {
         id: 5,
-        link: "/contact",
+        link: "/inner/contact",
         value: "Live Chat"
     },
 ]
@@ -59,27 +59,27 @@ export const LINKSTWO: LINK[] = [
 export const LINKTHREE: LINK[] = [
     {
         id: 1,
-        link: "/product-details",
+        link: "/inner/product-details",
         value: "Products Design"
     },
     {
         id: 2,
-        link: "/web-design-development",
+        link: "/inner/web-design-development",
         value: "Web Application"
     },
     {
         id: 3,
-        link: "/digital-marketing",
+        link: "/inner/digital-marketing",
         value: "Digital Marketing"
     },
     {
         id: 4,
-        link: "/design-and-branding",
+        link: "/inner/design-and-branding",
         value: "UI/UX Design"
     },
     {
         id: 5,
-        link: "/services",
+        link: "/inner/services",
         value: "More Services"
     },
 ]

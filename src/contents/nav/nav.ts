@@ -1,6 +1,4 @@
-import type { LINK, NavItem, NavItemSingle } from "../footer/footerType";
-
-
+import type { LINK, NavItemSingle } from "../footer/footerType";
 
 export const HOME_LINKS: LINK[] = [
     { id: 1, link: "/", value: "Home One" },
@@ -23,11 +21,11 @@ export const PAGES_LINKS: LINK[] = [
     { id: 8, link: "/inner/pricing", value: "Pricing" },
     { id: 9, link: "/inner/gallery", value: "Gallery" },
     { id: 10, link: "/inner/faq", value: "FAQs" },
-    { id: 11, link: "/inner/404", value: "404 Error" },
+    { id: 11, link: "/404", value: "404 Error" },
     { id: 12, link: "/coming-soon", value: "Coming Soon" },
 ];
 
-// 🔹 Services Menu
+//  Services Menu
 export const SERVICES_LINKS: LINK[] = [
     { id: 1, link: "/inner/services", value: "Services" },
     { id: 2, link: "/inner/digital-marketing", value: "Digital Marketing" },
@@ -37,7 +35,7 @@ export const SERVICES_LINKS: LINK[] = [
     { id: 6, link: "/inner/app-development", value: "App Development" },
 ];
 
-// 🔹 Shop Menu
+//  Shop Menu
 export const SHOP_LINKS: LINK[] = [
     { id: 1, link: "/inner/products", value: "Products" },
     { id: 2, link: "/inner/product-details", value: "Product Details" },
@@ -48,7 +46,7 @@ export const SHOP_LINKS: LINK[] = [
     { id: 7, link: "/inner/login", value: "Login" },
 ];
 
-// 🔹 Blog Menu
+//  Blog Menu
 export const BLOG_LINKS: LINK[] = [
     { id: 1, link: "/inner/blog", value: "Blog" },
     { id: 2, link: "/inner/blog-carousel", value: "Blog Carousel" },

@@ -26,21 +26,21 @@ const features: Feature[] = [
         icon: icon1,
         title: 'Highly Expert Team',
         text: 'Cutting-edge approaches to keep your brand ahead.',
-        link: '/about',
+        link: '/inner/about',
     },
     {
         id: 2,
         icon: icon2,
         title: '24/7 Customer Services',
         text: 'Unique and impactful design strategies with ',
-        link: '/about',
+        link: '/inner/about',
     },
     {
         id: 3,
         icon: icon3,
         title: 'Competitive Pricing',
         text: 'Tailored strategies: Custom solutions to meet your',
-        link: '/about',
+        link: '/inner/about',
     },
 ];
 

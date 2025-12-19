@@ -88,7 +88,7 @@ const PortfolioOneSec: React.FC = () => {
             <div className="portfolio-one__bottom">
                 <div className="container">
                     <div className="portfolio-one__btn-box-two">
-                        <Link href="/portfolio">
+                        <Link href="/inner/portfolio">
                             All Projects <span className="icon-right"></span>
                         </Link>
                         <div className="owl-nav-portfolio" style={{ zIndex: 111 }}>

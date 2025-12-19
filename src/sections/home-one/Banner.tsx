@@ -76,7 +76,7 @@ const Banner: React.FC = () => {
               {/* Button + Clients */}
               <div className="banner-one__btn-and-satisfied-client-box flex items-center gap-5">
                 <div className="banner-one__btn-box">
-                  <Link href="/contact" className="banner-one__btn thm-btn">
+                  <Link href="/inner/contact" className="banner-one__btn thm-btn">
                     <span className="icon-right"></span> Get Started
                   </Link>
                 </div>

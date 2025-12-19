@@ -10,7 +10,8 @@ import Image from 'next/image';
 import TextAnimation from '@/components/elememts/TextAnimation';
 import { pricingPlans } from '@/contents/procing-plan/pricing';
 import { PricingPlan } from '@/contents/procing-plan/type';
-import Link from 'next/link'; 
+import Link from 'next/link';
+
 const PricingOne: React.FC = () => {
     const [isYearly, setIsYearly] = useState(false);
 
@@ -102,7 +103,7 @@ const PricingOne: React.FC = () => {
                                             </ul>
                                         </div>
                                         <div className="pricing-one__btn-box">
-                                            <Link href={'/pricing'} className="pricing-one__btn thm-btn" >
+                                            <Link href={'/inner/pricing'} className="pricing-one__btn thm-btn" >
                                                 <span className="icon-right"></span> Know More
                                             </Link>
                                         </div>
@@ -131,7 +132,7 @@ const PricingOne: React.FC = () => {
                                             If you need any an custom packages
                                         </p>
                                         <div className="pricing-one__btn-box-two">
-                                            <Link href={'/contact'} className="pricing-one__btn-two thm-btn" >
+                                            <Link href={'/inner/contact'} className="pricing-one__btn-two thm-btn" >
                                                 <span className="icon-right"></span> Contact Now
                                             </Link>
                                         </div>
@@ -181,7 +182,7 @@ const PricingOne: React.FC = () => {
                                             </ul>
                                         </div>
                                         <div className="pricing-one__btn-box">
-                                            <Link href={'/pricing'} className="pricing-one__btn thm-btn" >
+                                            <Link href={'/inner/pricing'} className="pricing-one__btn thm-btn" >
                                                 <span className="icon-right"></span> Know More
                                             </Link>
                                         </div>
@@ -211,7 +212,7 @@ const PricingOne: React.FC = () => {
                                             If you need any an custom packages
                                         </p>
                                         <div className="pricing-one__btn-box-two">
-                                            <Link href={'/contact'} className="pricing-one__btn-two thm-btn" >
+                                            <Link href={'/inner/contact'} className="pricing-one__btn-two thm-btn" >
                                                 <span className="icon-right"></span> Contact Now
                                             </Link>
                                         </div>

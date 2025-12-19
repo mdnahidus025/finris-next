@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import ManuList from '../manu-item/MainList';
+import ManuList from '../manu-item/ManuList';
 import logo2 from '../../../public/assets/images/resources/logo-2.png';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -87,12 +87,12 @@ const HeaderTwo: React.FC = () => {
                                         <span className="main-menu-two__search searcher-toggler-box icon-search-1"></span>
                                     </div>
                                     <div className="main-menu-two__cart-box">
-                                        <Link href="/cart" className="main-menu-two__cart icon-shopping-cart"></Link>
+                                        <Link href="/inner/cart" className="main-menu-two__cart icon-shopping-cart"></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="main-menu-two__btn-box">
-                                <Link href="/contact" className="thm-btn thm-btn-two main-menu-two__btn">
+                                <Link href="/inner/contact" className="thm-btn thm-btn-two main-menu-two__btn">
                                     Contact us
                                 </Link>
                             </div>

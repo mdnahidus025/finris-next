@@ -52,7 +52,7 @@ const FooterCommon: React.FC = () => {
                         <div className="container">
                             <div className="site-footer-two__main-content-inner">
                                 <div className="site-footer-two__star rotate-me">
-                                    <Image src={shapeStar} width={25} height={25} alt="Star Shape" />
+                                    <Image src={shapeStar} loading="lazy" width={25} height={25} alt="Star Shape" />
                                 </div>
 
                                 <div className="row">
@@ -61,7 +61,7 @@ const FooterCommon: React.FC = () => {
                                         <div className="footer-widget-two__about">
                                             <div className="footer-widget-two__about-logo">
                                                 <Link href="/">
-                                                    <Image src={footerLogo} width={117} height={29} alt="Footer Logo" />
+                                                    <Image src={footerLogo} width={117} height={29} loading="lazy" alt="Footer Logo" />
                                                 </Link>
                                             </div>
                                             <ul className="footer-widget-two__get-in-touch-list list-unstyled">
@@ -115,7 +115,7 @@ const FooterCommon: React.FC = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                    <div className="col-xl-3 col-lg-6 col-md-6 " >
                                         <div className="footer-widget-two__quick-links">
                                             <h4 className="footer-widget-two__title">Quick Links</h4>
                                             <ul className="footer-widget-two__quick-links-list list-unstyled">

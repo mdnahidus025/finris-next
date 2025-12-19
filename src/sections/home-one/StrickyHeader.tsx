@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../../public/assets/images/resources/logo-1.png';
 import Link from 'next/link';
-import ManuList from '../manu-item/MainList';
+import ManuList from '../manu-item/ManuList';
 import Image from 'next/image';
 import { useFinrisContext } from '@/components/context/useFinrisContext';
 const StrickyHeader: React.FC = () => {
@@ -42,7 +42,7 @@ const StrickyHeader: React.FC = () => {
                                     <span className="main-menu__search searcher-toggler-box icon-search-1"></span>
                                 </div>
                                 <div className="main-menu__btn-box">
-                                    <Link href="/contact" className="thm-btn main-menu__btn">Contact Us</Link>
+                                    <Link href="/inner/contact" className="thm-btn main-menu__btn">Contact Us</Link>
                                 </div>
                                 <div className="main-menu__nav-sidebar-icon">
                                     <Link className="navSidebar-button" href="#" onClick={() => setIsSidebar(pre => !pre)}>

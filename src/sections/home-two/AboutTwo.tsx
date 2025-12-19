@@ -10,7 +10,7 @@ import aboutTwoIcon2 from '../../../public/assets/images/icon/about-two-icon-2.p
 import aboutTwoIcon3 from '../../../public/assets/images/icon/about-two-icon-3.png';
 import aboutTwoIcon4 from '../../../public/assets/images/icon/about-two-icon-4.png';
 
-const AboutTwo: React.FC= () => {
+const AboutTwo: React.FC = () => {
     return (
         <section className="about-two">
             <div className="about-two__shape-box">
@@ -127,7 +127,7 @@ const AboutTwo: React.FC= () => {
                             <div className="about-two__bottom">
                                 <div className="about-two__btn-and-call-box">
                                     <div className="about-two__btn-box">
-                                        <Link href="/about" className="about-two__btn thm-btn thm-btn-two">
+                                        <Link href="/inner/about" className="about-two__btn thm-btn thm-btn-two">
                                             <span className="icon-right"></span> Know More
                                         </Link>
                                     </div>

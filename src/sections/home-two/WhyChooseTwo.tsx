@@ -29,7 +29,7 @@ const WhyChooseTwo: React.FC = () => {
                                 Start your journey with our <br /> exceptional services.
                             </h3>
                             <div className="cta-one__btn">
-                                <Link href="/contact">
+                                <Link href="/inner/contact">
                                     Get Started <span className="icon-right-arrow-1"></span>
                                 </Link>
                             </div>
@@ -119,8 +119,8 @@ const WhyChooseTwo: React.FC = () => {
                                         <span className="section-title-two__tagline">Why Choose Us</span>
                                     </div>
                                     <h2 className="section-title-two__title title-animation">
-                                        <TextAnimation text='Enhance your success with our'  textColor='black' isSpan={false} />
-                                        <TextAnimation text='premium services.'  textColor='#6232F8' isSpan={false} />
+                                        <TextAnimation text='Enhance your success with our' textColor='black' isSpan={false} />
+                                        <TextAnimation text='premium services.' textColor='#6232F8' isSpan={false} />
 
                                     </h2>
                                 </div>
@@ -138,7 +138,7 @@ const WhyChooseTwo: React.FC = () => {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/about">
+                                                <Link href="/inner/about">
                                                     Tailored Solutions for Optimal Results
                                                 </Link>
                                             </h4>
@@ -154,7 +154,7 @@ const WhyChooseTwo: React.FC = () => {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/about">
+                                                <Link href="/inner/about">
                                                     Exclusive Access to Expert Insights
                                                 </Link>
                                             </h4>

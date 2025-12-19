@@ -102,7 +102,7 @@ const BlogTwo: React.FC = () => {
                 {/* Bottom Button */}
                 <div className="blog-two__bottom">
                     <div className="blog-two__btn-box-two">
-                        <Link href="/blog">
+                        <Link href="/inner/blog">
                             View More <span className="icon-right"></span>
                         </Link>
                     </div>

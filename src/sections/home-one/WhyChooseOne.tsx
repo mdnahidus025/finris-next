@@ -1,19 +1,19 @@
 "use client"
-import React from "react"; 
+import React from "react";
 import { motion } from "framer-motion"
 import icon1 from "../../../public/assets/images/icon/why-choose-one-icon-1.png";
 import icon2 from "../../../public/assets/images/icon/why-choose-one-icon-2.png";
 import icon3 from "../../../public/assets/images/icon/why-choose-one-icon-3.png";
 import icon4 from "../../../public/assets/images/icon/why-choose-one-icon-4.png";
 import img1 from "../../../public/assets/images/resources/why-choose-one-img-1.jpg";
-import img2 from "../../../public/assets/images/resources/why-choose-one-img-2.jpg"; 
+import img2 from "../../../public/assets/images/resources/why-choose-one-img-2.jpg";
 import Image from "next/image";
 import TextAnimation from "@/components/elememts/TextAnimation";
 import Link from "next/link";
 
 const WhyChooseOne: React.FC = () => {
     return (
-        <section className="why-choose-one"> 
+        <section className="why-choose-one">
             <div
                 className="why-choose-one__shape-bg" ></div>
 
@@ -31,8 +31,8 @@ const WhyChooseOne: React.FC = () => {
                                     <span className="section-title__tagline">Why Choose Us</span>
                                 </div>
                                 <h2 className="section-title__title title-animation">
-                                    <TextAnimation text="We're a top creative agency"  textColor="black" />
-                                    <TextAnimation text="known for innovation."  />
+                                    <TextAnimation text="We're a top creative agency" textColor="black" />
+                                    <TextAnimation text="known for innovation." />
                                     <span></span>
                                 </h2>
                             </div>
@@ -46,11 +46,11 @@ const WhyChooseOne: React.FC = () => {
                             <ul className="list-unstyled why-choose-one__list">
                                 <li>
                                     <div className="icon">
-                                        <Image  src={icon1} width={48} height={48} alt="Innovative Solutions" />
+                                        <Image src={icon1} width={48} height={48} alt="Innovative Solutions" />
                                     </div>
                                     <div className="content">
                                         <p>
-                                            <Link href="/about">Innovative Solutions</Link>
+                                            <Link href="/inner/about">Innovative Solutions</Link>
                                         </p>
                                         <span>
                                             Cutting-edge approaches to keep your brand <br /> ahead.
@@ -60,11 +60,11 @@ const WhyChooseOne: React.FC = () => {
 
                                 <li>
                                     <div className="icon">
-                                        <Image  src={icon2} width={48} height={48} alt="Creative Excellence" />
+                                        <Image src={icon2} width={48} height={48} alt="Creative Excellence" />
                                     </div>
                                     <div className="content">
                                         <p>
-                                            <Link href="/about">Creative Excellence</Link>
+                                            <Link href="/inner/about">Creative Excellence</Link>
                                         </p>
                                         <span>
                                             Unique and impactful design strategies with <br /> creative
@@ -75,11 +75,11 @@ const WhyChooseOne: React.FC = () => {
 
                                 <li>
                                     <div className="icon">
-                                        <Image  src={icon3} width={48} height={48} alt="Custom Strategies" />
+                                        <Image src={icon3} width={48} height={48} alt="Custom Strategies" />
                                     </div>
                                     <div className="content">
                                         <p>
-                                            <Link href="/about">Custom Strategies</Link>
+                                            <Link href="/inner/about">Custom Strategies</Link>
                                         </p>
                                         <span>
                                             Tailored strategies: Custom solutions to meet <br /> your
@@ -128,7 +128,7 @@ const WhyChooseOne: React.FC = () => {
                                 <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="why-choose-one__content-two">
                                         <div className="why-choose-one__icon">
-                                            <Image  src={icon4} width={48} height={48} alt="Icon 4" />
+                                            <Image src={icon4} width={48} height={48} alt="Icon 4" />
                                         </div>
                                         <div className="why-choose-one__img-two">
                                             <Image src={img2} width={300} height={425} alt="Why Choose One 2" />

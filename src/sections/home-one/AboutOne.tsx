@@ -7,6 +7,7 @@ import aboutImg1 from '../../../public/assets/images/resources/about-one-img-1.j
 import aboutImg2 from '../../../public/assets/images/resources/about-one-img-2.jpg';
 import Image from 'next/image';
 import TextAnimation from '@/components/elememts/TextAnimation';
+import Link from 'next/link';
 
 // Points data array
 const pointsColumn1 = [
@@ -104,9 +105,9 @@ const AboutOne: React.FC = () => {
                                 </div>
                                 <div className="about-one__btn-and-call-box">
                                     <div className="about-one__btn-box">
-                                        <a href="/about" className="about-one__btn thm-btn">
+                                        <Link href="/inner/about" className="about-one__btn thm-btn">
                                             <span className="icon-right"></span> Know More
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="about-one__call">
                                         <div className="about-one__call-icon">
@@ -114,7 +115,7 @@ const AboutOne: React.FC = () => {
                                         </div>
                                         <div className="about-one__call-content">
                                             <h3 className="about-one__call-title">
-                                                <a href="/contact">Live Chat</a>
+                                                <Link href="/inner/contact">Live Chat</Link>
                                             </h3>
                                             <p className="about-one__call-sub-title">Connect us</p>
                                         </div>
